@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 body {
 
     font-family: 'Montserrat', sans-serif;
@@ -38,8 +42,10 @@ body {
     }
 
     &__text_bold {
-        font-weight: bold;
-
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 32px;
     }
 
     &__button {
@@ -51,8 +57,14 @@ body {
         font-size: 18px;
         line-height: 22px;
         color: #FFFFFF;
+        border: none;
+    }
+
+    &__button:hover {
+        cursor: url(./img/cursor.svg), pointer;
     }
 }
+
 
 .center {
     padding-left: calc(50% - 600px);
@@ -74,7 +86,20 @@ body {
 
     &__image {
         border-radius: 16px;
+        width: 378px;
     }
+
+    &__image:hover {
+        border: 3px solid #44D2FF;
+        cursor: url(./img/cursor.svg), pointer;
+        box-sizing: border-box;
+    }
+
+    &__link {
+        cursor: url(./img/cursor.svg), pointer;
+
+    }
+
 
     &__text {
         font-style: normal;
@@ -87,3 +112,6 @@ body {
         left: 32px;
     }
 }
+
+
+@import 'mobile';

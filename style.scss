@@ -113,5 +113,59 @@ body {
     }
 }
 
+.seasons {
+    background: #000915;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+
+    &__title {
+        padding-top: 282px;
+        margin-bottom: 32px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 59px;
+        color: #FFFFFF;
+    }
+
+    &__text {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 32px;
+        display: flex;
+        align-items: center;
+        color: #FFFFFF;
+        max-width: 584px;
+    }
+
+    &__button {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        width: 234.06px;
+        height: 48.6px;
+        background: #9C0332;
+        border-radius: 30px;
+        color: #FFFFFF;
+        margin-top: 32px;
+        margin-bottom: 282px;
+        border: none;
+        
+    }
+    &__button:hover{
+        cursor: url(./img/cursor.svg), pointer;
+    }
+    &__image{
+        padding-top: 234px;
+        padding-bottom: 234px;
+    }
+}
+
+
 
 @import 'mobile';

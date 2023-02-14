@@ -20,10 +20,12 @@
     .product {
         justify-content: center;
     }
+
     .seasons {
         display: flex;
         flex-direction: column;
         align-items: center;
+
         &__content {
             display: flex;
             align-items: center;
@@ -58,8 +60,50 @@
         &__button {
             margin-bottom: 0px;
         }
+    }
+
+    .remember {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &__content {
+            display: flex;
+            align-items: center;
+            text-align: center;
+            flex-direction: column;
+        }
+
+        &__title {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 39px;
+            color: #FFFFFF;
+            padding-top: 50px;
+        }
+
+        &__text {
+            font-style: normal;
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 22px;
+            color: #FFFFFF;
+        }
+
+        &__image {
+            width: 344px;
+            height: 236px;
+            padding-top: 64px;
+            padding-bottom: 86px;
+        }
+
+        &__button {
+            margin-bottom: 0px;
+        }
+    }
 }
-}
+
 
 @media(min-width: 325px) and (max-width: 768px) {
     .center {
@@ -162,4 +206,44 @@
         }
     }
 
+    .remember {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &__content {
+            display: flex;
+            align-items: center;
+            text-align: center;
+            flex-direction: column;
+        }
+
+        &__title {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 39px;
+            color: #FFFFFF;
+            padding-top: 50px;
+        }
+
+        &__text {
+            font-style: normal;
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 22px;
+            color: #FFFFFF;
+        }
+
+        &__image {
+            width: 344px;
+            height: 236px;
+            padding-top: 64px;
+            padding-bottom: 86px;
+        }
+
+        &__button {
+            margin-bottom: 0px;
+        }
+    }
 }
